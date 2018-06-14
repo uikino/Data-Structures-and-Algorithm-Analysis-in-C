@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/discaz/Project/Socket/Chapter3/List/./list.h
+stdio.h
+-
+malloc.h
+-
+
+/home/discaz/Project/Socket/Chapter3/List/list.c
+list.h
+/home/discaz/Project/Socket/Chapter3/List/list.h
+
+/home/discaz/Project/Socket/Chapter3/List/list.h
+stdio.h
+-
+malloc.h
+-
+
+/home/discaz/Project/Socket/Chapter3/List/main.c
+stdio.h
+-
+./list.h
+/home/discaz/Project/Socket/Chapter3/List/./list.h
+
