@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/discaz/Project/Socket/Chapter4/binarytree/./binarytree.h
+malloc.h
+-
+string.h
+-
+
+/home/discaz/Project/Socket/Chapter4/binarytree/binarytree.c
+./binarytree.h
+/home/discaz/Project/Socket/Chapter4/binarytree/./binarytree.h
+
+/home/discaz/Project/Socket/Chapter4/binarytree/main.c
+stdio.h
+-
+./binarytree.h
+/home/discaz/Project/Socket/Chapter4/binarytree/./binarytree.h
+
