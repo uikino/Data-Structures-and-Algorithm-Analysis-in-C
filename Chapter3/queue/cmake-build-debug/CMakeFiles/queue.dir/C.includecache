@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/discaz/Project/Socket/Chapter3/queue/./queue.h
+string.h
+-
+malloc.h
+-
+
+/home/discaz/Project/Socket/Chapter3/queue/main.c
+stdio.h
+-
+queue.h
+/home/discaz/Project/Socket/Chapter3/queue/queue.h
+
+/home/discaz/Project/Socket/Chapter3/queue/queue.c
+./queue.h
+/home/discaz/Project/Socket/Chapter3/queue/./queue.h
+
+/home/discaz/Project/Socket/Chapter3/queue/queue.h
+string.h
+-
+malloc.h
+-
+
