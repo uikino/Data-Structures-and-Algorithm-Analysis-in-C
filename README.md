@@ -3,6 +3,7 @@
 ## Chapter3
 ### list
 ### stack
+### queue
 
 ## Chapter4
 
