@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/discaz/Project/Socket/Chapter5/separateChain_hash/./hash.h
+malloc.h
+-
+
+/home/discaz/Project/Socket/Chapter5/separateChain_hash/hash.c
+./hash.h
+/home/discaz/Project/Socket/Chapter5/separateChain_hash/./hash.h
+
+/home/discaz/Project/Socket/Chapter5/separateChain_hash/main.c
+stdio.h
+-
+./hash.h
+/home/discaz/Project/Socket/Chapter5/separateChain_hash/./hash.h
+
