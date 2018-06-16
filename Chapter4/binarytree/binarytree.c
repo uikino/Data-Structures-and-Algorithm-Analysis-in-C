@@ -99,10 +99,14 @@ ElemType getValue(BTree t, char *pos){
             itr = itr->rch;
         }
     }
-    // TODO to assert itr->lch/rch == NULL
-//    if (){
-//
-//    }
+
+    if (pos[poslen] == 'l' && itr->lch != NULL){
+        return itr->lch->elem;
+    } else if (pos[poslen] == 'r' && itr->rch != NULL){
+        return itr->rch->elem;
+    } else{
+        return 0xf0000000;
+    }
 
 }
 void preOrder(BTree t){
