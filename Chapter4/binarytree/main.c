@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include "./binarytree.h"
 
+
+//! @bug bugs ,waiting fix
+
 int main() {
     BTree t;
     t = MakeTree(t,1010);

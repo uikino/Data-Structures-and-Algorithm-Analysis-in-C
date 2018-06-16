@@ -2,6 +2,9 @@
 // Created by discaz on 18-6-15.
 //
 
+
+//! @bug bugs ,waiting fix
+
 #include "./binarytree.h"
 
 BTree MakeTree(BTree t,ElemType v){
